@@ -8,11 +8,23 @@ This macro has 3 UserForms and 5 Modules.
 
 ## UserForms
 
-1. **AddOrSearch_Ufm** : A Userform that gives user an option to Add or Search Product.
-2. **Mail_Ufm** :
-3. **Mail_Ufm** :
+1. **AddOrSearch_Ufm** :
+
+![Add Or Search Product](AddOrSearch_Ufm.PNG)
+
+2. **AddProduct_Ufm** :
+
+![Add Product](AddProduct_Ufm.PNG)
+
+3. **Search_Ufm** :
+
+![Search Product](Search_Ufm.PNG)
+
 
 ## Modules
 
-1. **fitAndFormat_Mod.bas** : It contains a function that auto-fit all cells in the worksheet and change the formatting of the first row as specified.
+1. **Update_Mod.bas** : It contains subroutines that update *ComboBox* in above mentioned forms with the data given in`Data` worksheet.
+2. **GenerateCode_Mod.bas** : It has function which is used to *generate a unique code* according to the product specifications that are mentioned by user with the help of data given in `Data` worksheet..
+3. **AddProduct_Mod.bas** : It contains two functions for *Adding Product* to `Products` worksheet and for *Searching Product* from `Products` worksheet.
+4. **fitAndFormat_Mod.bas** : It contains a function that auto-fit all cells in the worksheet and change the formatting of the first row as specified.
 
